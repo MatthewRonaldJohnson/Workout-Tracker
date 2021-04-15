@@ -24,9 +24,10 @@ router.post('/workouts', async (req, res) => {
     res.json(request);
 });
 
-//what does this do?
+//get all workouts for last 7 days and return them
 router.get('/workouts/range', async (req, res) => {
-    res.end();
+    const request = await db.Workout.find({}).limit(7);
+    res.json(request);
 })
 
 module.exports = router;
