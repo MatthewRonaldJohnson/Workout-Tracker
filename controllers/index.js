@@ -5,7 +5,7 @@ const path = require('path');
 router.use('/api', apiRoutes);
 
 router.get('/stats', (req,res)=>{
-    res.sendFile(path.join(__dirname, 'stats.html'))
+    res.sendFile(path.join(__dirname, '../public/stats.html'))
 })
 
 router.get('/exercise', (req,res)=>{
