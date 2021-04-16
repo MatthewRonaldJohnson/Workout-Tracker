@@ -12,4 +12,4 @@ This application allows a user to create and track daily workouts. Multiple exer
 
 Below is a gif showing the use of this applicaiton, in it the user adds an exercise to the lastest workout and then creates new workout. 
 
-![Walkthrough Gif](src)
+![Walkthrough Gif](https://github.com/MatthewRonaldJohnson/Workout-Tracker/blob/main/README%20Assets/Gif%20Walkthrough.gif?raw=true)
