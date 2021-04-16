@@ -26,7 +26,7 @@ router.post('/workouts', async (req, res) => {
 
 //get all workouts for last 7 days and return them
 router.get('/workouts/range', async (req, res) => {
-    const request = await db.Workout.find({}).limit(7);
+    const request = await db.Workout.find({}).sort({day: -1}).limit(7);
     res.json(request);
 })
 
